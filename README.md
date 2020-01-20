@@ -19,7 +19,11 @@
       - [Install](tool/IDE/Eclipse/01.Install.md)
       - [sts_spring_boot_import](tool/IDE/Eclipse/02.sts_spring_boot_import.md)
     - [IntelliJ](tool/IDE/IntelliJ)
+      - [install](tool/IDE/IntelliJ/01.install.md)
+      - [spring_boot_import](tool/IDE/IntelliJ/02.spring_boot_import.md)
     - [VSCode](tool/IDE/VSCode)
+      - [install_setting](tool/IDE/VSCode/01.Install_setting.md)
+      - [spring_boot_start](tool/IDE/VSCode/02.spring_boot_start.md)
   - [ssh](tool/ssh)
     - [Connect_Without_Password](tool/ssh/01.Connect_Without_Password.md)
   - [version_control](tool/version_control)
@@ -33,6 +37,7 @@
 
 ## History
 
+- 2020-01-17 [tool/IDE/IntelliJ/install](tool/IDE/IntelliJ/01.Install.md), [tool/IDE/IntelliJ/spring_boot_import](tool/IDE/IntelliJ/02.spring_boot_import.md)
 - 2020-01-16 [tool/IDE/Eclipse/sts_spring_boot_import](tool/IDE/Eclipse/02.sts_spring_boot_import.md)
 - 2020-01-15 [os/linux/centos/lsof](os/linux/centos/01.lsof.md)
 - 2020-01-14 [tool/IDE/VSCode/Install_setting](tool/IDE/VSCode/01.Install_setting.md), [tool/IDE/VSCode/spring_boot_start](tool/IDE/VSCode/02.spring_boot_start.md)
