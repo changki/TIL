@@ -6,6 +6,7 @@
 
 - [java](java)
   - [demo](java/demo) - java example project
+  - [sampe](https://github.com/changki/sample/) - submodule
 - [os](os)
   - [linux](os/linux)
     - [centos](os/linux/centos)
@@ -32,11 +33,14 @@
       - [Create_Repository](tool/version_control/git/01.Create_Repository.md)
       - [Clone](tool/version_control/git/02.Clone.md)
       - [Remote_Repository](tool/version_control/git/03.Remote_Repository.md)
+      - [Submodule](tool/version_control/git/04.submodule.md)
 - etc...
 
 
 ## History
 
+- 2020-01-21 [version_control/git/Submodule](tool/version_control/git/04.submodule.md)
+- 2020-01-20 [java/sample](https://github.com/changki/sample/) - submodule project 
 - 2020-01-17 [tool/IDE/IntelliJ/install](tool/IDE/IntelliJ/01.Install.md), [tool/IDE/IntelliJ/spring_boot_import](tool/IDE/IntelliJ/02.spring_boot_import.md)
 - 2020-01-16 [tool/IDE/Eclipse/sts_spring_boot_import](tool/IDE/Eclipse/02.sts_spring_boot_import.md)
 - 2020-01-15 [os/linux/centos/lsof](os/linux/centos/01.lsof.md)
