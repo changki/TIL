@@ -26,6 +26,8 @@
       - [install_setting](tool/IDE/VSCode/01.Install_setting.md)
       - [spring_boot_start](tool/IDE/VSCode/02.spring_boot_start.md)
   - [server](tool/server)
+    - [ssl](tool/server/ssl)
+      - [sslscan](tool/server/ssl/01.sslscan.md)
     - [tomcat](tool/server/tomcat)
       - [tls](tool/server/tomcat/01.tls.md)
   - [ssh](tool/ssh)
@@ -42,7 +44,8 @@
 
 ## History
 
-- 2020-01-22 [server/tomcat/tls](tool/server/tomcat/01.tls.md)
+- 2020-01-29 [tool/server/ssl/sslscan](tool/server/ssl/01.sslscan.md)
+- 2020-01-22 [tool/server/tomcat/tls](tool/server/tomcat/01.tls.md)
 - 2020-01-21 [version_control/git/Submodule](tool/version_control/git/04.submodule.md)
 - 2020-01-20 [java/sample](https://github.com/changki/sample/) - submodule project 
 - 2020-01-17 [tool/IDE/IntelliJ/install](tool/IDE/IntelliJ/01.Install.md), [tool/IDE/IntelliJ/spring_boot_import](tool/IDE/IntelliJ/02.spring_boot_import.md)
