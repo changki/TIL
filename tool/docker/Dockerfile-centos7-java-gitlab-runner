@@ -1,0 +1,20 @@
+FROM centos:7
+
+MAINTAINER develop@deepsoft.co.kr
+
+RUN yum update -y \
+    && yum install -y java-11-openjdk java-11-openjdk-devel && java -version
+
+RUN curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | bash \
+    && yum -y install gitlab-runner \
+    && yum clean all \
+    && java -version
+
+ENV JAVA_HOME /etc/alternatives/jre
+
+# Preserve runner's data
+VOLUME ["/etc/gitlab-runner", "/home/gitlab-runner"]
+VOLUME ["/var/run/docker.sock", "/var/run/docker.sock"]
+
+CMD ["run", "--user=gitlab-runner", "--working-directory=/home/gitlab-runner"]
+ENTRYPOINT ["/usr/bin/gitlab-runner"]
