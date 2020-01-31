@@ -14,7 +14,7 @@
 - [tool](tool)
   - [docker](tool/docker)
     - [sample_dockerfile](tool/docker/sample_dockerfile)
-      - [Dockerfile-ceentos7-java-gitlab-runner](tool/docker/sample_dockerfile/Dockerfile-ceentos7-java-gitlab-runner)
+      - [Dockerfile-centos7-java-gitlab-runner](tool/docker/sample_dockerfile/Dockerfile-centos7-java-gitlab-runner)
     - [Install_for_Centos7](tool/docker/01.Install_for_Centos7.md)
     - [make_dockerfile](tool/docker/02.make_dockerfile.md)
   - [document](tool/document)
