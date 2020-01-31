@@ -10,7 +10,8 @@ RUN curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runne
     && yum clean all \
     && java -version
 
-ENV JAVA_HOME /etc/alternatives/jre
+ENV JAVA_HOME /etc/alternatives/jre \
+    TZ Asia/Seoul
 
 # Preserve runner's data
 VOLUME ["/etc/gitlab-runner", "/home/gitlab-runner"]
