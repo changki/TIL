@@ -4,6 +4,9 @@
 
 ## List
 
+- [infra](infra)
+  - [mq](infra/mq)
+    - [message_queue](infra/mq/01.message_queue.md)
 - [java](java)
   - [demo](java/demo) - java example project
   - [sampe](https://github.com/changki/sample/) - submodule
@@ -49,6 +52,7 @@
 
 ## History
 
+- 2020-02-01 [infra/mq/message_queue](infra/mq/01.message_queue.md)
 - 2020-01-31 [tool/version_control/git/gitlab-runner-docker](tool/version_control/git/06.gitlab-runner-docker.md)
 - 2020-01-30 [tool/version_control/git/gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
 - 2020-01-29 [tool/server/ssl/sslscan](tool/server/ssl/01.sslscan.md), [gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
