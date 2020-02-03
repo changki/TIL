@@ -2,17 +2,23 @@ FROM centos:7
 
 MAINTAINER develop@deepsoft.co.kr
 
-RUN yum update -y \
-    && yum install -y java-11-openjdk java-11-openjdk-devel && java -version
+USER root
 
-RUN curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | bash \
-    && yum -y install gitlab-runner \
-    && yum clean all \
-    && java -version
+ENV SDKMAN_DIR=/root/.sdkman TZ=Asia/Seoul
 
-ENV JAVA_HOME /etc/alternatives/jre \
-    TZ Asia/Seoul
+RUN yum install -y deltarpm unzip zip which openssl && yum update -y
 
+RUN curl -s "https://get.sdkman.io" | bash && \
+    echo "sdkman_auto_answer=true" > $SDKMAN_DIR/etc/config && \
+    echo "sdkman_auto_selfupdate=false" >> $SDKMAN_DIR/etc/config && \
+    echo "sdkman_insecure_ssl=true" >> $SDKMAN_DIR/etc/config && \
+    curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | bash && \
+    yum -y install gitlab-runner && \
+    yum clean all && \
+    source ~/.zshrc && \
+    sdk install java 11.0.6.hs-adpt && java -version && \
+    sdk install gradle 6.1.1 && gradle -version
+ 
 # Preserve runner's data
 VOLUME ["/etc/gitlab-runner", "/home/gitlab-runner"]
 VOLUME ["/var/run/docker.sock", "/var/run/docker.sock"]
