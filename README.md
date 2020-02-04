@@ -47,11 +47,15 @@
       - [Remote_Repository](tool/version_control/git/03.Remote_Repository.md)
       - [Submodule](tool/version_control/git/04.submodule.md)
       - [gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
+- [troubleshooting](troubleshooting)
+  - [java](troubleshooting/java)
+    - [character](troubleshooting/java/character)
+      - [combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
 - etc...
-
 
 ## History
 
+- 2020-02-04 [troubleshooting/java/character/combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
 - 2020-02-03 `Dockerfile example`
 - 2020-02-01 [infra/mq/message_queue](infra/mq/01.message_queue.md)
 - 2020-01-31 [tool/version_control/git/gitlab-runner-docker](tool/version_control/git/06.gitlab-runner-docker.md)
