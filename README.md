@@ -48,6 +48,8 @@
       - [Submodule](tool/version_control/git/04.submodule.md)
       - [gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
 - [troubleshooting](troubleshooting)
+  - [git](troubleshooting/git)
+    - [fetch-pack](troubleshooting/git/01.fetch-pack.md)
   - [java](troubleshooting/java)
     - [character](troubleshooting/java/character)
       - [combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
@@ -55,6 +57,7 @@
 
 ## History
 
+- 2020-02-05 [troubleshooting/git/fetch-pack](troubleshooting/git/01.fetch-pack.md)
 - 2020-02-04 [troubleshooting/java/character/combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
 - 2020-02-03 `Dockerfile example`
 - 2020-02-01 [infra/mq/message_queue](infra/mq/01.message_queue.md)
