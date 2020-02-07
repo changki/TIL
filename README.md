@@ -8,8 +8,10 @@
   - [mq](infra/mq)
     - [message_queue](infra/mq/01.message_queue.md)
 - [java](java)
-  - [demo](java/demo) - java example project
-  - [sampe](https://github.com/changki/sample/) - submodule
+  - [project](java/project)
+    - [sampe](https://github.com/changki/sample/) - submodule
+  - [maven](java/maven)
+    - [local-jar-dependency](java/maven/01.local-jar-dependency.md)
 - [os](os)
   - [linux](os/linux)
     - [centos](os/linux/centos)
@@ -57,6 +59,8 @@
 
 ## History
 
+- 2020-02-07 tree clean up - delete demo project, [local-jar-dependency](java/maven/01.local-jar-dependency.md)
+- 2020-02-06 `Fasoo DRM`
 - 2020-02-05 [troubleshooting/git/fetch-pack](troubleshooting/git/01.fetch-pack.md)
 - 2020-02-04 [troubleshooting/java/character/combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
 - 2020-02-03 `Dockerfile example`
