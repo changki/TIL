@@ -49,6 +49,8 @@
       - [Remote_Repository](tool/version_control/git/03.Remote_Repository.md)
       - [Submodule](tool/version_control/git/04.submodule.md)
       - [gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
+      - [gitlab-runner-docker](tool/version_control/git/06.gitlab-runner-docker.md)
+      - [branch](tool/version_control/git/07.branch.md)
 - [troubleshooting](troubleshooting)
   - [git](troubleshooting/git)
     - [fetch-pack](troubleshooting/git/01.fetch-pack.md)
@@ -59,6 +61,7 @@
 
 ## History
 
+- 2020-02-10 [tool/version_control/git/branch](tool/version_control/git/07.branch.md)
 - 2020-02-07 tree clean up - delete demo project, [local-jar-dependency](java/maven/01.local-jar-dependency.md)
 - 2020-02-06 `Fasoo DRM`
 - 2020-02-05 [troubleshooting/git/fetch-pack](troubleshooting/git/01.fetch-pack.md)
