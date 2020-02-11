@@ -57,10 +57,13 @@
   - [java](troubleshooting/java)
     - [character](troubleshooting/java/character)
       - [combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
+    - [exception](troubleshooting/java/exception)
+      - [UnsatisfiedLinkError](troubleshooting/java/exception/01.UnsatisfiedLinkError.md)
 - etc...
 
 ## History
 
+- 2020-02-11 [troubleshooting/java/exception/UnsatisfiedLinkError](troubleshooting/java/exception/01.UnsatisfiedLinkError.md)
 - 2020-02-10 [tool/version_control/git/branch](tool/version_control/git/07.branch.md)
 - 2020-02-07 tree clean up - delete demo project, [local-jar-dependency](java/maven/01.local-jar-dependency.md)
 - 2020-02-06 `Fasoo DRM`
