@@ -52,6 +52,8 @@
       - [gitlab-runner-docker](tool/version_control/git/06.gitlab-runner-docker.md)
       - [branch](tool/version_control/git/07.branch.md)
 - [troubleshooting](troubleshooting)
+  - [db](troubleshooting/db)
+    - [mysql_connection_warning](troubleshooting/db/01.mysql_connection_warning.md)
   - [git](troubleshooting/git)
     - [fetch-pack](troubleshooting/git/01.fetch-pack.md)
   - [java](troubleshooting/java)
@@ -63,6 +65,7 @@
 
 ## History
 
+- 2020-02-12 [mysql_connection_warning](troubleshooting/db/01.mysql_connection_warning.md)
 - 2020-02-11 [troubleshooting/java/exception/UnsatisfiedLinkError](troubleshooting/java/exception/01.UnsatisfiedLinkError.md)
 - 2020-02-10 [tool/version_control/git/branch](tool/version_control/git/07.branch.md)
 - 2020-02-07 tree clean up - delete demo project, [local-jar-dependency](java/maven/01.local-jar-dependency.md)
