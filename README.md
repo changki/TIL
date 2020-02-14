@@ -35,6 +35,9 @@
       - [install_setting](tool/IDE/VSCode/01.Install_setting.md)
       - [spring_boot_start](tool/IDE/VSCode/02.spring_boot_start.md)
   - [server](tool/server)
+    - [monitoring](tool/server/monitoring)
+      - [solutions](tool/server/monitoring/01.solutions.md)
+      - [prometheus](tool/server/monitoring/02.prometheus.md)
     - [ssl](tool/server/ssl)
       - [sslscan](tool/server/ssl/01.sslscan.md)
     - [tomcat](tool/server/tomcat)
@@ -65,6 +68,7 @@
 
 ## History
 
+- 2020-02-14 [tool/server/monitoring/solutions](tool/server/monitoring/01.solutions.md), [tool/server/monitoring/prometheus](tool/server/monitoring/02.prometheus.md)
 - 2020-02-13 [tool/docker/make_dockerfile](tool/docker/02.make_dockerfile.md)
 - 2020-02-12 [troubleshooting/db/mysql_connection_warning](troubleshooting/db/01.mysql_connection_warning.md)
 - 2020-02-11 [troubleshooting/java/exception/UnsatisfiedLinkError](troubleshooting/java/exception/01.UnsatisfiedLinkError.md)
