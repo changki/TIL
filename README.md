@@ -42,6 +42,8 @@
       - [sslscan](tool/server/ssl/01.sslscan.md)
     - [tomcat](tool/server/tomcat)
       - [tls](tool/server/tomcat/01.tls.md)
+    - [nginx](tool/server/nginx)
+      - [install](tool/server/nginx/01.install.md)
   - [ssh](tool/ssh)
     - [Connect_Without_Password](tool/ssh/01.Connect_Without_Password.md)
   - [version_control](tool/version_control)
@@ -68,6 +70,7 @@
 
 ## History
 
+- 2020-02-18 [tool/server/nginx/install](tool/server/nginx/01.install.md)
 - 2020-02-14 [tool/server/monitoring/solutions](tool/server/monitoring/01.solutions.md), [tool/server/monitoring/prometheus](tool/server/monitoring/02.prometheus.md)
 - 2020-02-13 [tool/docker/make_dockerfile](tool/docker/02.make_dockerfile.md)
 - 2020-02-12 [troubleshooting/db/mysql_connection_warning](troubleshooting/db/01.mysql_connection_warning.md)
