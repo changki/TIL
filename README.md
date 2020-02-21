@@ -8,6 +8,8 @@
   - [mq](infra/mq)
     - [message_queue](infra/mq/01.message_queue.md)
 - [java](java)
+  - [gradle](java/gradle)
+    - [gradle_setting](java/gradle/01.gradle_setting.md)
   - [project](java/project)
     - [sampe](https://github.com/changki/sample/) - submodule
   - [maven](java/maven)
@@ -70,6 +72,7 @@
 
 ## History
 
+- 2020-02-21 [java/gradle/gradle_setting](java/gradle/01.gradle_setting.md)
 - 2020-02-18 [tool/server/nginx/install](tool/server/nginx/01.install.md)
 - 2020-02-14 [tool/server/monitoring/solutions](tool/server/monitoring/01.solutions.md), [tool/server/monitoring/prometheus](tool/server/monitoring/02.prometheus.md)
 - 2020-02-13 [tool/docker/make_dockerfile](tool/docker/02.make_dockerfile.md)
