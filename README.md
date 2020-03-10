@@ -42,6 +42,7 @@
       - [prometheus](tool/server/monitoring/02.prometheus.md)
     - [ssl](tool/server/ssl)
       - [sslscan](tool/server/ssl/01.sslscan.md)
+      - [openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
     - [tomcat](tool/server/tomcat)
       - [tls](tool/server/tomcat/01.tls.md)
     - [nginx](tool/server/nginx)
@@ -72,6 +73,7 @@
 
 ## History
 
+- 2020-03-10 [tool/server/ssl/openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
 - 2020-02-21 [java/gradle/gradle_setting](java/gradle/01.gradle_setting.md)
 - 2020-02-18 [tool/server/nginx/install](tool/server/nginx/01.install.md)
 - 2020-02-14 [tool/server/monitoring/solutions](tool/server/monitoring/01.solutions.md), [tool/server/monitoring/prometheus](tool/server/monitoring/02.prometheus.md)
