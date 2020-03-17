@@ -30,6 +30,7 @@
     - [Eclipse](tool/IDE/Eclipse)
       - [Install](tool/IDE/Eclipse/01.Install.md)
       - [sts_spring_boot_import](tool/IDE/Eclipse/02.sts_spring_boot_import.md)
+      - [properties_unicode](tool/IDE/Eclipse/03.properties_unicode.md)
     - [IntelliJ](tool/IDE/IntelliJ)
       - [install](tool/IDE/IntelliJ/01.install.md)
       - [spring_boot_import](tool/IDE/IntelliJ/02.spring_boot_import.md)
@@ -74,6 +75,7 @@
 
 ## History
 
+- 2020-03-17 [tool/IDE/Eclipse/properties_unicode](tool/IDE/Eclipse/03.properties_unicode.md)
 - 2020-03-11 [tool/server/ssl/tomcat_native_build](tool/server/ssl/03.tomcat_native_build.md)
 - 2020-03-10 [tool/server/ssl/openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
 - 2020-02-21 [java/gradle/gradle_setting](java/gradle/01.gradle_setting.md)
