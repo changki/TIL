@@ -36,6 +36,8 @@
     - [VSCode](tool/IDE/VSCode)
       - [install_setting](tool/IDE/VSCode/01.Install_setting.md)
       - [spring_boot_start](tool/IDE/VSCode/02.spring_boot_start.md)
+  - [redis](tool/redis)
+    - [install](tool/redis/01.install.md)
   - [server](tool/server)
     - [monitoring](tool/server/monitoring)
       - [solutions](tool/server/monitoring/01.solutions.md)
@@ -73,6 +75,7 @@
 
 ## History
 
+- 2020-03-30 [tool/redis/install](tool/redis/01.install.md)
 - 2020-03-10 [tool/server/ssl/openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
 - 2020-02-21 [java/gradle/gradle_setting](java/gradle/01.gradle_setting.md)
 - 2020-02-18 [tool/server/nginx/install](tool/server/nginx/01.install.md)
