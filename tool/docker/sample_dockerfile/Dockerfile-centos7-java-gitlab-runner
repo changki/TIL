@@ -23,5 +23,5 @@ RUN curl -s "https://get.sdkman.io" | bash && \
 VOLUME ["/etc/gitlab-runner", "/home/gitlab-runner"]
 VOLUME ["/var/run/docker.sock", "/var/run/docker.sock"]
 
-CMD ["run", "--user=gitlab-runner", "--working-directory=/home/gitlab-runner"]
+CMD ["run", "--user=root", "--working-directory=/home/gitlab-runner"]
 ENTRYPOINT ["/usr/bin/gitlab-runner"]
