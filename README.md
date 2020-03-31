@@ -43,6 +43,7 @@
     - [monitoring](tool/server/monitoring)
       - [solutions](tool/server/monitoring/01.solutions.md)
       - [prometheus](tool/server/monitoring/02.prometheus.md)
+      - [scouter](tool/server/monitoring/03.scouter.md)
     - [ssl](tool/server/ssl)
       - [sslscan](tool/server/ssl/01.sslscan.md)
       - [openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
@@ -77,6 +78,7 @@
 
 ## History
 
+- 2020-03-31 [tool/server/monitoring/03.scouter.md](tool/server/monitoring/03.scouter.md)
 - 2020-03-30 [tool/redis/install](tool/redis/01.install.md)
 - 2020-03-17 [tool/IDE/Eclipse/properties_unicode](tool/IDE/Eclipse/03.properties_unicode.md)
 - 2020-03-11 [tool/server/ssl/tomcat_native_build](tool/server/ssl/03.tomcat_native_build.md)
