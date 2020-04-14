@@ -44,14 +44,16 @@
       - [solutions](tool/server/monitoring/01.solutions.md)
       - [prometheus](tool/server/monitoring/02.prometheus.md)
       - [scouter](tool/server/monitoring/03.scouter.md)
+    - [nginx](tool/server/nginx)
+      - [install](tool/server/nginx/01.install.md)
+    - [sonatype-nexus](tool/server/sonatype-nexus)
+      - [install_sonatype_nexus](tool/server/sonatype-nexus/01.install_sonatype_nexus.md)
     - [ssl](tool/server/ssl)
       - [sslscan](tool/server/ssl/01.sslscan.md)
       - [openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
-      - [tomcat_native_build](tool/server/ssl/03.tomcat_native_build.md)
     - [tomcat](tool/server/tomcat)
       - [tls](tool/server/tomcat/01.tls.md)
-    - [nginx](tool/server/nginx)
-      - [install](tool/server/nginx/01.install.md)
+      - [tomcat_native_build](tool/server/ssl/03.tomcat_native_build.md)
   - [ssh](tool/ssh)
     - [Connect_Without_Password](tool/ssh/01.Connect_Without_Password.md)
   - [version_control](tool/version_control)
@@ -78,6 +80,7 @@
 
 ## History
 
+- 2020-04-14 [tool/server/sonatype-nexus/install_sonatype_nexus](tool/server/sonatype-nexus/01.install_sonatype_nexus.md)
 - 2020-03-31 [tool/server/monitoring/03.scouter.md](tool/server/monitoring/03.scouter.md)
 - 2020-03-30 [tool/redis/install](tool/redis/01.install.md)
 - 2020-03-17 [tool/IDE/Eclipse/properties_unicode](tool/IDE/Eclipse/03.properties_unicode.md)
