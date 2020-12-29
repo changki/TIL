@@ -18,6 +18,8 @@
   - [linux](os/linux)
     - [centos](os/linux/centos)
       - [lsof](os/linux/centos/01.lsof.md)
+    - [ubuntu](os/linux/ubuntu)
+      - [install](os/linux/ubuntu/01.install.md)
 - [tool](tool)
   - [docker](tool/docker)
     - [sample_dockerfile](tool/docker/sample_dockerfile)
@@ -80,6 +82,7 @@
 
 ## History
 
+- 2020-12-29 [os/lunux/ubuntu/install](os/linux/ubuntu/01.install.md)
 - 2020-04-14 [tool/server/sonatype-nexus/install_sonatype_nexus](tool/server/sonatype-nexus/01.install_sonatype_nexus.md)
 - 2020-03-31 [tool/server/monitoring/03.scouter.md](tool/server/monitoring/03.scouter.md)
 - 2020-03-30 [tool/redis/install](tool/redis/01.install.md)
