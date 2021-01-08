@@ -4,6 +4,8 @@
 
 ## List
 
+- [aws](aws)
+  - [root_connect](aws/01.root_connect.md)
 - [infra](infra)
   - [mq](infra/mq)
     - [message_queue](infra/mq/01.message_queue.md)
@@ -79,44 +81,4 @@
     - [exception](troubleshooting/java/exception)
       - [UnsatisfiedLinkError](troubleshooting/java/exception/01.UnsatisfiedLinkError.md)
 - etc...
-
-## History
-
-- 2020-12-29 [os/lunux/ubuntu/install](os/linux/ubuntu/01.install.md)
-- 2020-04-14 [tool/server/sonatype-nexus/install_sonatype_nexus](tool/server/sonatype-nexus/01.install_sonatype_nexus.md)
-- 2020-03-31 [tool/server/monitoring/03.scouter.md](tool/server/monitoring/03.scouter.md)
-- 2020-03-30 [tool/redis/install](tool/redis/01.install.md)
-- 2020-03-17 [tool/IDE/Eclipse/properties_unicode](tool/IDE/Eclipse/03.properties_unicode.md)
-- 2020-03-11 [tool/server/ssl/tomcat_native_build](tool/server/ssl/03.tomcat_native_build.md)
-- 2020-03-10 [tool/server/ssl/openssl_upgrade](tool/server/ssl/02.openssl_upgrade.md)
-- 2020-02-21 [java/gradle/gradle_setting](java/gradle/01.gradle_setting.md)
-- 2020-02-18 [tool/server/nginx/install](tool/server/nginx/01.install.md)
-- 2020-02-14 [tool/server/monitoring/solutions](tool/server/monitoring/01.solutions.md), [tool/server/monitoring/prometheus](tool/server/monitoring/02.prometheus.md)
-- 2020-02-13 [tool/docker/make_dockerfile](tool/docker/02.make_dockerfile.md)
-- 2020-02-12 [troubleshooting/db/mysql_connection_warning](troubleshooting/db/01.mysql_connection_warning.md)
-- 2020-02-11 [troubleshooting/java/exception/UnsatisfiedLinkError](troubleshooting/java/exception/01.UnsatisfiedLinkError.md)
-- 2020-02-10 [tool/version_control/git/branch](tool/version_control/git/07.branch.md)
-- 2020-02-07 tree clean up - delete demo project, [local-jar-dependency](java/maven/01.local-jar-dependency.md)
-- 2020-02-06 `Fasoo DRM`
-- 2020-02-05 [troubleshooting/git/fetch-pack](troubleshooting/git/01.fetch-pack.md)
-- 2020-02-04 [troubleshooting/java/character/combined_hangul](troubleshooting/java/character/01.combined_hangul.md)
-- 2020-02-03 `Dockerfile example`
-- 2020-02-01 [infra/mq/message_queue](infra/mq/01.message_queue.md)
-- 2020-01-31 [tool/version_control/git/gitlab-runner-docker](tool/version_control/git/06.gitlab-runner-docker.md)
-- 2020-01-30 [tool/version_control/git/gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
-- 2020-01-29 [tool/server/ssl/sslscan](tool/server/ssl/01.sslscan.md), [gitlab-runner](tool/version_control/git/05.gitlab-runner.md)
-- 2020-01-22 [tool/server/tomcat/tls](tool/server/tomcat/01.tls.md)
-- 2020-01-21 [version_control/git/Submodule](tool/version_control/git/04.submodule.md)
-- 2020-01-20 [java/sample](https://github.com/changki/sample/) - submodule project 
-- 2020-01-17 [tool/IDE/IntelliJ/install](tool/IDE/IntelliJ/01.Install.md), [tool/IDE/IntelliJ/spring_boot_import](tool/IDE/IntelliJ/02.spring_boot_import.md)
-- 2020-01-16 [tool/IDE/Eclipse/sts_spring_boot_import](tool/IDE/Eclipse/02.sts_spring_boot_import.md)
-- 2020-01-15 [os/linux/centos/lsof](os/linux/centos/01.lsof.md)
-- 2020-01-14 [tool/IDE/VSCode/Install_setting](tool/IDE/VSCode/01.Install_setting.md), [tool/IDE/VSCode/spring_boot_start](tool/IDE/VSCode/02.spring_boot_start.md)
-- 2020-01-13 `Git remote user.name test`
-- 2020-01-12 [tool/version_control/git/Install_gitlab_server_ce](tool/version_control/git/00.Install_gitlab_sever_ce.md)
-- 2020-01-11 [tool/document/markdown](tool/document/markdown/README.md)
-- 2020-01-06 [tool/docker/Install_for_Centos7](tool/docker/01.Install_for_Centos7.md)
-- 2020-01-03 [tool/ssh/ConnectWithoutPassword](tool/ssh/01.Connect_Without_Password.md)
-- 2020-01-02 [tool/version_control/git/Git Clone](tool/version_control/git/02.Clone.md),
-[tool/IDE/Eclipse/Install](tool/IDE/Eclipse/01.Install.md)
 
